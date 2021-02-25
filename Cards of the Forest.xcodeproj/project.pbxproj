@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8480A51D2473D67500BBA52B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480A51C2473D67500BBA52B /* AppDelegate.swift */; };
+		8480A51F2473D67500BBA52B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480A51E2473D67500BBA52B /* SceneDelegate.swift */; };
+		8480A5212473D67500BBA52B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480A5202473D67500BBA52B /* ViewController.swift */; };
+		8480A5242473D67500BBA52B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8480A5222473D67500BBA52B /* Main.storyboard */; };
+		8480A5262473D67700BBA52B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8480A5252473D67700BBA52B /* Assets.xcassets */; };
+		8480A5292473D67700BBA52B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8480A5272473D67700BBA52B /* LaunchScreen.storyboard */; };
+		8480A5342473D67700BBA52B /* Cards_of_the_ForestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480A5332473D67700BBA52B /* Cards_of_the_ForestTests.swift */; };
+		8480A53F2473D67700BBA52B /* Cards_of_the_ForestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480A53E2473D67700BBA52B /* Cards_of_the_ForestUITests.swift */; };
+		8480A54D2473D8D900BBA52B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480A54C2473D8D900BBA52B /* TableViewController.swift */; };
+		8480A54F2473D96400BBA52B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480A54E2473D96400BBA52B /* DetailViewController.swift */; };
+		8480A56024756F4100BBA52B /* CURUPIRA.png in Resources */ = {isa = PBXBuildFile; fileRef = 8480A55024756F3F00BBA52B /* CURUPIRA.png */; };
+		8480A56124756F4100BBA52B /* GUARANA.png in Resources */ = {isa = PBXBuildFile; fileRef = 8480A55124756F3F00BBA52B /* GUARANA.png */; };
+		8480A56224756F4100BBA52B /* CAPIVARA.png in Resources */ = {isa = PBXBuildFile; fileRef = 8480A55224756F3F00BBA52B /* CAPIVARA.png */; };
+		8480A56324756F4100BBA52B /* CUCA.png in Resources */ = {isa = PBXBuildFile; fileRef = 8480A55324756F4000BBA52B /* CUCA.png */; };
+		8480A56424756F4100BBA52B /* GRILO.png in Resources */ = {isa = PBXBuildFile; fileRef = 8480A55424756F4000BBA52B /* GRILO.png */; };
+		8480A56524756F4100BBA52B /* PICA_PAU_AMARELO.png in Resources */ = {isa = PBXBuildFile; fileRef = 8480A55524756F4000BBA52B /* PICA_PAU_AMARELO.png */; };
+		8480A56624756F4100BBA52B /* ARARA_VERMELHA.png in Resources */ = {isa = PBXBuildFile; fileRef = 8480A55624756F4000BBA52B /* ARARA_VERMELHA.png */; };
+		8480A56724756F4100BBA52B /* TATU.png in Resources */ = {isa = PBXBuildFile; fileRef = 8480A55724756F4000BBA52B /* TATU.png */; };
+		8480A56824756F4100BBA52B /* VITORIA_REGIA.png in Resources */ = {isa = PBXBuildFile; fileRef = 8480A55824756F4000BBA52B /* VITORIA_REGIA.png */; };
+		8480A56924756F4100BBA52B /* PAI_DO_MATO.png in Resources */ = {isa = PBXBuildFile; fileRef = 8480A55924756F4000BBA52B /* PAI_DO_MATO.png */; };
+		8480A56A24756F4100BBA52B /* ARARA_AZUL.png in Resources */ = {isa = PBXBuildFile; fileRef = 8480A55A24756F4000BBA52B /* ARARA_AZUL.png */; };
+		8480A56B24756F4100BBA52B /* SACI.png in Resources */ = {isa = PBXBuildFile; fileRef = 8480A55B24756F4000BBA52B /* SACI.png */; };
+		8480A56C24756F4100BBA52B /* PEPE.png in Resources */ = {isa = PBXBuildFile; fileRef = 8480A55C24756F4100BBA52B /* PEPE.png */; };
+		8480A56D24756F4100BBA52B /* TUCANO.png in Resources */ = {isa = PBXBuildFile; fileRef = 8480A55D24756F4100BBA52B /* TUCANO.png */; };
+		8480A56E24756F4100BBA52B /* MICO_LEAO.png in Resources */ = {isa = PBXBuildFile; fileRef = 8480A55E24756F4100BBA52B /* MICO_LEAO.png */; };
+		8480A56F24756F4100BBA52B /* CAIPORA.png in Resources */ = {isa = PBXBuildFile; fileRef = 8480A55F24756F4100BBA52B /* CAIPORA.png */; };
+		8480A572247572FD00BBA52B /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480A571247572FD00BBA52B /* Character.swift */; };
+		8480A574247579D000BBA52B /* CellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480A573247579D000BBA52B /* CellTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8480A5302473D67700BBA52B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8480A5112473D67400BBA52B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8480A5182473D67500BBA52B;
+			remoteInfo = "Cards of the Forest";
+		};
+		8480A53B2473D67700BBA52B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8480A5112473D67400BBA52B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8480A5182473D67500BBA52B;
+			remoteInfo = "Cards of the Forest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8480A5192473D67500BBA52B /* Cards of the Forest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cards of the Forest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8480A51C2473D67500BBA52B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8480A51E2473D67500BBA52B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8480A5202473D67500BBA52B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8480A5232473D67500BBA52B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8480A5252473D67700BBA52B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8480A5282473D67700BBA52B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8480A52A2473D67700BBA52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8480A52F2473D67700BBA52B /* Cards of the ForestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cards of the ForestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8480A5332473D67700BBA52B /* Cards_of_the_ForestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards_of_the_ForestTests.swift; sourceTree = "<group>"; };
+		8480A5352473D67700BBA52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8480A53A2473D67700BBA52B /* Cards of the ForestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cards of the ForestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8480A53E2473D67700BBA52B /* Cards_of_the_ForestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards_of_the_ForestUITests.swift; sourceTree = "<group>"; };
+		8480A5402473D67700BBA52B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8480A54C2473D8D900BBA52B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		8480A54E2473D96400BBA52B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8480A55024756F3F00BBA52B /* CURUPIRA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CURUPIRA.png; sourceTree = "<group>"; };
+		8480A55124756F3F00BBA52B /* GUARANA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GUARANA.png; sourceTree = "<group>"; };
+		8480A55224756F3F00BBA52B /* CAPIVARA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CAPIVARA.png; sourceTree = "<group>"; };
+		8480A55324756F4000BBA52B /* CUCA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CUCA.png; sourceTree = "<group>"; };
+		8480A55424756F4000BBA52B /* GRILO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GRILO.png; sourceTree = "<group>"; };
+		8480A55524756F4000BBA52B /* PICA_PAU_AMARELO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PICA_PAU_AMARELO.png; sourceTree = "<group>"; };
+		8480A55624756F4000BBA52B /* ARARA_VERMELHA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ARARA_VERMELHA.png; sourceTree = "<group>"; };
+		8480A55724756F4000BBA52B /* TATU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TATU.png; sourceTree = "<group>"; };
+		8480A55824756F4000BBA52B /* VITORIA_REGIA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VITORIA_REGIA.png; sourceTree = "<group>"; };
+		8480A55924756F4000BBA52B /* PAI_DO_MATO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PAI_DO_MATO.png; sourceTree = "<group>"; };
+		8480A55A24756F4000BBA52B /* ARARA_AZUL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ARARA_AZUL.png; sourceTree = "<group>"; };
+		8480A55B24756F4000BBA52B /* SACI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SACI.png; sourceTree = "<group>"; };
+		8480A55C24756F4100BBA52B /* PEPE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PEPE.png; sourceTree = "<group>"; };
+		8480A55D24756F4100BBA52B /* TUCANO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TUCANO.png; sourceTree = "<group>"; };
+		8480A55E24756F4100BBA52B /* MICO_LEAO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MICO_LEAO.png; sourceTree = "<group>"; };
+		8480A55F24756F4100BBA52B /* CAIPORA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CAIPORA.png; sourceTree = "<group>"; };
+		8480A571247572FD00BBA52B /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		8480A573247579D000BBA52B /* CellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8480A5162473D67500BBA52B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8480A52C2473D67700BBA52B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8480A5372473D67700BBA52B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8480A5102473D67400BBA52B = {
+			isa = PBXGroup;
+			children = (
+				8480A51B2473D67500BBA52B /* Cards of the Forest */,
+				8480A5322473D67700BBA52B /* Cards of the ForestTests */,
+				8480A53D2473D67700BBA52B /* Cards of the ForestUITests */,
+				8480A51A2473D67500BBA52B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8480A51A2473D67500BBA52B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8480A5192473D67500BBA52B /* Cards of the Forest.app */,
+				8480A52F2473D67700BBA52B /* Cards of the ForestTests.xctest */,
+				8480A53A2473D67700BBA52B /* Cards of the ForestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8480A51B2473D67500BBA52B /* Cards of the Forest */ = {
+			isa = PBXGroup;
+			children = (
+				8480A57024756F5700BBA52B /* Images */,
+				8480A51C2473D67500BBA52B /* AppDelegate.swift */,
+				8480A51E2473D67500BBA52B /* SceneDelegate.swift */,
+				8480A5202473D67500BBA52B /* ViewController.swift */,
+				8480A5222473D67500BBA52B /* Main.storyboard */,
+				8480A5252473D67700BBA52B /* Assets.xcassets */,
+				8480A5272473D67700BBA52B /* LaunchScreen.storyboard */,
+				8480A52A2473D67700BBA52B /* Info.plist */,
+				8480A54C2473D8D900BBA52B /* TableViewController.swift */,
+				8480A54E2473D96400BBA52B /* DetailViewController.swift */,
+				8480A571247572FD00BBA52B /* Character.swift */,
+				8480A573247579D000BBA52B /* CellTableViewController.swift */,
+			);
+			path = "Cards of the Forest";
+			sourceTree = "<group>";
+		};
+		8480A5322473D67700BBA52B /* Cards of the ForestTests */ = {
+			isa = PBXGroup;
+			children = (
+				8480A5332473D67700BBA52B /* Cards_of_the_ForestTests.swift */,
+				8480A5352473D67700BBA52B /* Info.plist */,
+			);
+			path = "Cards of the ForestTests";
+			sourceTree = "<group>";
+		};
+		8480A53D2473D67700BBA52B /* Cards of the ForestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8480A53E2473D67700BBA52B /* Cards_of_the_ForestUITests.swift */,
+				8480A5402473D67700BBA52B /* Info.plist */,
+			);
+			path = "Cards of the ForestUITests";
+			sourceTree = "<group>";
+		};
+		8480A57024756F5700BBA52B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8480A55A24756F4000BBA52B /* ARARA_AZUL.png */,
+				8480A55624756F4000BBA52B /* ARARA_VERMELHA.png */,
+				8480A55F24756F4100BBA52B /* CAIPORA.png */,
+				8480A55224756F3F00BBA52B /* CAPIVARA.png */,
+				8480A55324756F4000BBA52B /* CUCA.png */,
+				8480A55024756F3F00BBA52B /* CURUPIRA.png */,
+				8480A55424756F4000BBA52B /* GRILO.png */,
+				8480A55124756F3F00BBA52B /* GUARANA.png */,
+				8480A55E24756F4100BBA52B /* MICO_LEAO.png */,
+				8480A55924756F4000BBA52B /* PAI_DO_MATO.png */,
+				8480A55C24756F4100BBA52B /* PEPE.png */,
+				8480A55524756F4000BBA52B /* PICA_PAU_AMARELO.png */,
+				8480A55B24756F4000BBA52B /* SACI.png */,
+				8480A55724756F4000BBA52B /* TATU.png */,
+				8480A55D24756F4100BBA52B /* TUCANO.png */,
+				8480A55824756F4000BBA52B /* VITORIA_REGIA.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8480A5182473D67500BBA52B /* Cards of the Forest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8480A5432473D67700BBA52B /* Build configuration list for PBXNativeTarget "Cards of the Forest" */;
+			buildPhases = (
+				8480A5152473D67500BBA52B /* Sources */,
+				8480A5162473D67500BBA52B /* Frameworks */,
+				8480A5172473D67500BBA52B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cards of the Forest";
+			productName = "Cards of the Forest";
+			productReference = 8480A5192473D67500BBA52B /* Cards of the Forest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8480A52E2473D67700BBA52B /* Cards of the ForestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8480A5462473D67700BBA52B /* Build configuration list for PBXNativeTarget "Cards of the ForestTests" */;
+			buildPhases = (
+				8480A52B2473D67700BBA52B /* Sources */,
+				8480A52C2473D67700BBA52B /* Frameworks */,
+				8480A52D2473D67700BBA52B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8480A5312473D67700BBA52B /* PBXTargetDependency */,
+			);
+			name = "Cards of the ForestTests";
+			productName = "Cards of the ForestTests";
+			productReference = 8480A52F2473D67700BBA52B /* Cards of the ForestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8480A5392473D67700BBA52B /* Cards of the ForestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8480A5492473D67700BBA52B /* Build configuration list for PBXNativeTarget "Cards of the ForestUITests" */;
+			buildPhases = (
+				8480A5362473D67700BBA52B /* Sources */,
+				8480A5372473D67700BBA52B /* Frameworks */,
+				8480A5382473D67700BBA52B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8480A53C2473D67700BBA52B /* PBXTargetDependency */,
+			);
+			name = "Cards of the ForestUITests";
+			productName = "Cards of the ForestUITests";
+			productReference = 8480A53A2473D67700BBA52B /* Cards of the ForestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8480A5112473D67400BBA52B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "João Lisboa";
+				TargetAttributes = {
+					8480A5182473D67500BBA52B = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					8480A52E2473D67700BBA52B = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 8480A5182473D67500BBA52B;
+					};
+					8480A5392473D67700BBA52B = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 8480A5182473D67500BBA52B;
+					};
+				};
+			};
+			buildConfigurationList = 8480A5142473D67400BBA52B /* Build configuration list for PBXProject "Cards of the Forest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8480A5102473D67400BBA52B;
+			productRefGroup = 8480A51A2473D67500BBA52B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8480A5182473D67500BBA52B /* Cards of the Forest */,
+				8480A52E2473D67700BBA52B /* Cards of the ForestTests */,
+				8480A5392473D67700BBA52B /* Cards of the ForestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8480A5172473D67500BBA52B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8480A56F24756F4100BBA52B /* CAIPORA.png in Resources */,
+				8480A56224756F4100BBA52B /* CAPIVARA.png in Resources */,
+				8480A56424756F4100BBA52B /* GRILO.png in Resources */,
+				8480A5292473D67700BBA52B /* LaunchScreen.storyboard in Resources */,
+				8480A5262473D67700BBA52B /* Assets.xcassets in Resources */,
+				8480A56924756F4100BBA52B /* PAI_DO_MATO.png in Resources */,
+				8480A56C24756F4100BBA52B /* PEPE.png in Resources */,
+				8480A56E24756F4100BBA52B /* MICO_LEAO.png in Resources */,
+				8480A56124756F4100BBA52B /* GUARANA.png in Resources */,
+				8480A56D24756F4100BBA52B /* TUCANO.png in Resources */,
+				8480A56824756F4100BBA52B /* VITORIA_REGIA.png in Resources */,
+				8480A56624756F4100BBA52B /* ARARA_VERMELHA.png in Resources */,
+				8480A56024756F4100BBA52B /* CURUPIRA.png in Resources */,
+				8480A56524756F4100BBA52B /* PICA_PAU_AMARELO.png in Resources */,
+				8480A56324756F4100BBA52B /* CUCA.png in Resources */,
+				8480A5242473D67500BBA52B /* Main.storyboard in Resources */,
+				8480A56B24756F4100BBA52B /* SACI.png in Resources */,
+				8480A56724756F4100BBA52B /* TATU.png in Resources */,
+				8480A56A24756F4100BBA52B /* ARARA_AZUL.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8480A52D2473D67700BBA52B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8480A5382473D67700BBA52B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8480A5152473D67500BBA52B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8480A5212473D67500BBA52B /* ViewController.swift in Sources */,
+				8480A51D2473D67500BBA52B /* AppDelegate.swift in Sources */,
+				8480A54F2473D96400BBA52B /* DetailViewController.swift in Sources */,
+				8480A572247572FD00BBA52B /* Character.swift in Sources */,
+				8480A51F2473D67500BBA52B /* SceneDelegate.swift in Sources */,
+				8480A54D2473D8D900BBA52B /* TableViewController.swift in Sources */,
+				8480A574247579D000BBA52B /* CellTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8480A52B2473D67700BBA52B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8480A5342473D67700BBA52B /* Cards_of_the_ForestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8480A5362473D67700BBA52B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8480A53F2473D67700BBA52B /* Cards_of_the_ForestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8480A5312473D67700BBA52B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8480A5182473D67500BBA52B /* Cards of the Forest */;
+			targetProxy = 8480A5302473D67700BBA52B /* PBXContainerItemProxy */;
+		};
+		8480A53C2473D67700BBA52B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8480A5182473D67500BBA52B /* Cards of the Forest */;
+			targetProxy = 8480A53B2473D67700BBA52B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8480A5222473D67500BBA52B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8480A5232473D67500BBA52B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8480A5272473D67700BBA52B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8480A5282473D67700BBA52B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8480A5412473D67700BBA52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8480A5422473D67700BBA52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8480A5442473D67700BBA52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74N7VYACJV;
+				INFOPLIST_FILE = "Cards of the Forest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jbliisboaProgram.Cards-of-the-Forest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8480A5452473D67700BBA52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74N7VYACJV;
+				INFOPLIST_FILE = "Cards of the Forest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jbliisboaProgram.Cards-of-the-Forest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8480A5472473D67700BBA52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74N7VYACJV;
+				INFOPLIST_FILE = "Cards of the ForestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jbliisboaProgram.Cards-of-the-ForestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cards of the Forest.app/Cards of the Forest";
+			};
+			name = Debug;
+		};
+		8480A5482473D67700BBA52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74N7VYACJV;
+				INFOPLIST_FILE = "Cards of the ForestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jbliisboaProgram.Cards-of-the-ForestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cards of the Forest.app/Cards of the Forest";
+			};
+			name = Release;
+		};
+		8480A54A2473D67700BBA52B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74N7VYACJV;
+				INFOPLIST_FILE = "Cards of the ForestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jbliisboaProgram.Cards-of-the-ForestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cards of the Forest";
+			};
+			name = Debug;
+		};
+		8480A54B2473D67700BBA52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74N7VYACJV;
+				INFOPLIST_FILE = "Cards of the ForestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jbliisboaProgram.Cards-of-the-ForestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cards of the Forest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8480A5142473D67400BBA52B /* Build configuration list for PBXProject "Cards of the Forest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8480A5412473D67700BBA52B /* Debug */,
+				8480A5422473D67700BBA52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8480A5432473D67700BBA52B /* Build configuration list for PBXNativeTarget "Cards of the Forest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8480A5442473D67700BBA52B /* Debug */,
+				8480A5452473D67700BBA52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8480A5462473D67700BBA52B /* Build configuration list for PBXNativeTarget "Cards of the ForestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8480A5472473D67700BBA52B /* Debug */,
+				8480A5482473D67700BBA52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8480A5492473D67700BBA52B /* Build configuration list for PBXNativeTarget "Cards of the ForestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8480A54A2473D67700BBA52B /* Debug */,
+				8480A54B2473D67700BBA52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8480A5112473D67400BBA52B /* Project object */;
+}
